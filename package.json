@@ -5,6 +5,11 @@
     "main": "react-shadow.js",
     "module": "react-shadow.esm.js",
     "types": "index.d.ts",
+    "exports": {
+        "types": "./*.d.ts",
+        "require": "./*.js",
+        "default": "./*.esm.js"
+    },
     "repository": "git@github.com:Wildhoney/ReactShadow.git",
     "author": "Adam Timberlake <adam.timberlake@gmail.com>",
     "contributors": [
